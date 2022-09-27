@@ -7,10 +7,9 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/funshyaj.github.io/portfolio" element={<Home />} />
-        <Route path="lpppage" element= {<LppPage/>}/>
-        <Route path="apppage" element={<AppPPage />} />
-        
+        <Route exact path="/" element={<Home />} />
+        <Route path="/lpppage" element= {<LppPage/>}/>
+        <Route path="/apppage" element={<AppPPage />} />
       </Routes>
     </div> 
   );
