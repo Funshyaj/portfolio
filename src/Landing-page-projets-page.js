@@ -13,8 +13,9 @@ const [modal, setModal] = useState(false)
     
     return ( <div>
 <header className="bg-red-100 h-[60vh]" >
+    <div className="headerbg"></div>
     <nav className="flex py-0  px-4 justify-start">
-<Link to="/funshyaj.github.io/portfolio"><span className="material-icons-outlined text-4xl">
+<Link to="/"><span className="material-icons-outlined text-4xl">
 arrow_back
 </span></Link>
 </nav>

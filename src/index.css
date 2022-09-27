@@ -12,18 +12,59 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 100%;
+  background-color:#09060c;
+  color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
 
 .text-anim > span{
   color: red;
+  font-size: 22px;
+  font-weight: 600
 }
 
+.text-anim > :nth-child(3){
+  font-size: 14px;
+}
+
+.darken{
+  background: linear-gradient(180deg, #000000, #ffffff00);
+    z-index: 2;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    opacity: 0.6;
+    height: 100vh;
+    position: absolute;
+}
+
+.darken1{
+  background: linear-gradient(180deg, #000000, #ffffff00);
+    z-index: 2;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    opacity: 0.6;
+    height: 100%;
+    position: absolute;
+}
+
+.background{
+    /* Add the blur effect */
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    /* Full height */
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    height: 100vh;
+    position: absolute;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 @tailwind base;
