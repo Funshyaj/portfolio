@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/funshyaj.github.io/portfolio/static/css/main.bd873c6b.css",
-    "main.js": "/funshyaj.github.io/portfolio/static/js/main.35b0030e.js",
+    "main.js": "/funshyaj.github.io/portfolio/static/js/main.adec5870.js",
     "index.html": "/funshyaj.github.io/portfolio/index.html",
     "main.bd873c6b.css.map": "/funshyaj.github.io/portfolio/static/css/main.bd873c6b.css.map",
-    "main.35b0030e.js.map": "/funshyaj.github.io/portfolio/static/js/main.35b0030e.js.map"
+    "main.adec5870.js.map": "/funshyaj.github.io/portfolio/static/js/main.adec5870.js.map"
   },
   "entrypoints": [
     "static/css/main.bd873c6b.css",
-    "static/js/main.35b0030e.js"
+    "static/js/main.adec5870.js"
   ]
 }
