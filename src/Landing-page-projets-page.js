@@ -14,7 +14,7 @@ const [modal, setModal] = useState(false)
     return ( <div>
 <header className="bg-red-100 h-[60vh]" >
     <nav className="flex py-0  px-4 justify-start">
-<Link to="/"><span class="material-icons-outlined text-4xl">
+<Link to="/funshyaj.github.io/portfolio"><span class="material-icons-outlined text-4xl">
 arrow_back
 </span></Link>
 </nav>
@@ -27,9 +27,20 @@ arrow_back
 </header>  
 <div> 
 <div className="-mt-16 flex justify-between px-2">
-<div className="h-44 w-36 border-2">
+
+<div className="h-44 w-36 border-2" onClick={()=>setModal(!modal)}>
     <h1>Landing pages projects</h1>
     </div>
+
+{/*Modals for each page*/}
+{ modal && <div className="fixed top-0 left-0 right-0 bottom-0 bg-black">
+   <nav className="flex py-0  px-4 justify-start" >
+<span class="material-icons-outlined text-4xl text-white" onClick={()=>setModal(!modal)}>
+arrow_back
+</span>
+</nav>  
+    </div>}
+   
 
     <div className="h-44 w-36 border-2">
     <h1>Landing pages projects</h1>
@@ -47,12 +58,6 @@ arrow_back
     </div>
 
 </div>
-
-
-{/*Modals for each page*/}
-{ modal && <div className="fixed top-0 left-0 right-0 bottom-0 bg-black">
-    
-    </div>}
 
 </div>
 
