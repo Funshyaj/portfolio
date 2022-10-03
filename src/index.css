@@ -40,7 +40,7 @@ body {
 }
 
 .darken1{
-  background: linear-gradient(180deg, #000000, #ffffff00);
+  background: black;
     z-index: 2;
     right: 0px;
     left: 0px;

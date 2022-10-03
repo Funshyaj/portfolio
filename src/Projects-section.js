@@ -19,25 +19,43 @@ const ProjectsSection = () => {
     <h1>Landing pages projects</h1>
     </div>
 </Link>
-<div className="flex flex-col gap-5 ">
-<Link to="/apppage"> 
-  <div className="h-44 w-36 border-2 relative">
-  <div className="darken"></div>
+
+
+<Link to="/lpppage"> 
+  <div className=" border-2 relative">
+  <div className="darken1"></div>
+  <div>
+    <img src={img1} alt="img" className="w-full object-contain vertical border-none" />
+  </div>
     <h1>Landing pages projects</h1>
     </div>
 </Link>
-</div>
 
- 
-<div className="flex gap-5 ">
-  <div className="h-44 w-36 border-2">
+
+
+<Link to="/apppage"> 
+  <div className=" border-2 relative">
+  <div className="darken1"></div>
+  <div>
+    <img src={img1} alt="img" className="w-full object-contain vertical border-none" />
+  </div>
     <h1>Landing pages projects</h1>
     </div>
+</Link>
 
-    <div className="h-44 w-36 border-2">
+
+
+<Link to="/apppage"> 
+  <div className=" border-2 relative">
+  <div className="darken1"></div>
+  <div>
+    <img src={img1} alt="img" className="w-full object-contain vertical border-none" />
+  </div>
     <h1>Landing pages projects</h1>
     </div>
-</div>
+</Link>
+
+
 
 
 </div>
