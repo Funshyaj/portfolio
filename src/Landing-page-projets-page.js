@@ -86,7 +86,7 @@ cancel
   <div>
     <img src={img2} alt="img" className="w-full object-contain vertical border-none max-w-[600px]" />
   </div>
-    <p className="absolute top-0 z-[2] left-0 pt-2 pl-2 md:pt-5 md:pl-5 md:text-2xl text-lg font-semibold">Landing pages projects</p>
+    <p className="absolute top-0 z-[2] left-0 pt-2 pl-2 md:pt-5 md:pl-5 md:text-2xl text-lg font-semibold">Moh collections Landing page</p>
     </div>
 
 
@@ -97,7 +97,7 @@ cancel
   <div>
     <img src={img2} alt="img" className="w-full object-contain vertical border-none max-w-[600px]" />
   </div>
-    <p className="absolute top-0 z-[2] left-0 pt-2 pl-2 md:pt-5 md:pl-5 md:text-2xl text-lg font-semibold">Landing pages projects</p>
+    <p className="absolute top-0 z-[2] left-0 pt-2 pl-2 md:pt-5 md:pl-5 md:text-2xl text-lg font-semibold">Perkyscent store Landing page</p>
     </div>
 
 </div>
