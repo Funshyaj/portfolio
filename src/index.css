@@ -51,7 +51,7 @@ body {
 }
 
 .darken3{
-  background: linear-gradient(0deg, #000000, #0000003d);
+  background: linear-gradient(0deg, #000000, #807f7f27);
     z-index: 0;
     right: 0px;
     left: 0px;
