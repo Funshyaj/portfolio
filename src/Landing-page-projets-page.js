@@ -34,35 +34,44 @@ arrow_back
     
     {/*Modals for each page*/}
 { modal && <div className="fixed top-0 left-0 right-0 bottom-0 bg-black overflow-y-scroll z-[5]">
-   <nav className="flex pt-4  px-4 justify-start" >
+   <nav className="flex pt-4  px-4 justify-end" >
 <span className="material-icons-outlined text-4xl text-white" onClick={()=>setModal(!modal)}>
-arrow_back
+cancel
 </span>
 </nav>  
 
-<div>
-    <h2>Perkyscent store landing page</h2>
-    <h4>Technologies used</h4>
-    <p>Html, css, Vanilla Javascript</p>
-</div>
+<div className="text-center">
+    <h2 className="font-semibold text-xl lg:text-4xl py-1">Perkyscent store landing page</h2>
+    <div className="py-1">
+      <h4>Technologies used</h4>
+    <p>Html, css, Vanilla Javascript</p></div>
+    
+<button className="bg-white text-black px-3 py-1 mx-2 text-lg font-semibold rounded-[5px]">Live preview</button>
+<button className="bg-white text-black px-3 py-1 mx-2 text-lg font-semibold rounded-[5px]">Code Repository</button>
+  </div>
 
-<button className="bg-white text-black px-3 py-1 text-lg font-semibold rounded-[5px] flex justify-center">Live preview</button>
-    <div>
+  <div>
     <h2>Pc</h2>
-    <img src={img2} alt="img" className="w-full object-contain vertical border-none max-w-[600px]" />
-    <img src={img2} alt="img" className="w-full object-contain vertical border-none max-w-[600px]" />
+    <div className="flex justify-around">
+    <img src={img2} alt="img" className="w-[47%] object-contain vertical border-none max-w-[600px]" />
+    <img src={img2} alt="img" className="w-[47%] object-contain vertical border-none max-w-[600px]" />
+    </div>
     </div>
 
     <div>
-    <h2>mobile</h2>
-    <img src={img2} alt="img" className="w-full object-contain vertical border-none max-w-[600px]" />
-    <img src={img2} alt="img" className="w-full object-contain vertical border-none max-w-[600px]" />
+    <h2>Mobile</h2>
+    <div className="flex justify-around">
+    <img src={img2} alt="img" className="w-[47%] object-contain vertical border-none max-w-[600px]" />
+    <img src={img2} alt="img" className="w-[47%] object-contain vertical border-none max-w-[600px]" />
+    </div>
     </div>
 
     <div>
-    <h2>tablet</h2>
-    <img src={img2} alt="img" className="w-full object-contain vertical border-none max-w-[600px]" />
-    <img src={img2} alt="img" className="w-full object-contain vertical border-none max-w-[600px]" />
+    <h2>Tablet</h2>
+    <div className="flex justify-around">
+    <img src={img2} alt="img" className="w-[47%] object-contain vertical border-none max-w-[600px]" />
+    <img src={img2} alt="img" className="w-[47%] object-contain vertical border-none max-w-[600px]" />
+    </div>
     </div>
     
     

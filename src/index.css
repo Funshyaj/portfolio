@@ -34,18 +34,18 @@ body {
     right: 0px;
     left: 0px;
     top: 0px;
-    opacity: 0.6;
+    opacity: 0.7;
     height: 100vh;
     position: absolute;
 }
 
 .darken1{
-  background: black;
+  background: linear-gradient(180deg, #000000, #00000040);
     z-index: 2;
     right: 0px;
     left: 0px;
     top: 0px;
-    opacity: 0.6;
+    opacity: 0.9;
     height: 100%;
     position: absolute;
 }
